@@ -1,5 +1,4 @@
-import AntButton from 'antd/es/button';
-import AntSlider from 'antd/es/slider';
+import { Button as AntButton, Slider as AntSlider } from 'antd';
 import {
   forwardRef,
   memo,

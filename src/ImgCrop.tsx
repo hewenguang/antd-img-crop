@@ -1,6 +1,5 @@
 import type { ModalProps } from 'antd';
-import AntModal from 'antd/es/modal';
-import AntUpload from 'antd/es/upload';
+import { Modal as AntModal, Upload as AntUpload } from 'antd';
 import type { RcFile, UploadFile } from 'antd/es/upload/interface';
 import type { MouseEvent, ReactNode } from 'react';
 import { forwardRef, useCallback, useMemo, useRef, useState } from 'react';
